@@ -27,3 +27,5 @@ let resultado = planilla.reduce( (total ,           empleado ) =>
     total + empleado.sueldoBase, 0    ) // el que va despues de la , es el valor con el que va iniciar en este caso 0
 
     console.log(`Forma en Reduce ${resultado}`);
+
+    
